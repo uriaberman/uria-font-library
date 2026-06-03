@@ -1,0 +1,3229 @@
+{
+ "generated": "2026-06-04",
+ "count": 84,
+ "fonts": [
+  {
+   "slug": "rubik",
+   "he": "רוביק",
+   "en": "Rubik",
+   "heb": true,
+   "brand": true,
+   "designer": "Hubert & Fischer · עברית Meir Sadan",
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "use": "פונט המותג של אוריה. כותרות Black, גוף Regular. ברירת מחדל לוורד וגאנטים.",
+   "mood": "גיאומטרי · ידידותי · עכשווי",
+   "source": "Google Fonts",
+   "path": "library/rubik/",
+   "pairs": "Plus Jakarta Sans",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "Rubik-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "Rubik-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "Rubik-Medium.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "Rubik-Bold.ttf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "Rubik-Black.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "plus-jakarta-sans",
+   "he": "פלוס ג׳קרטה סאנס",
+   "en": "Plus Jakarta Sans",
+   "heb": false,
+   "brand": true,
+   "variable": true,
+   "designer": "Tokotype",
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "לטינית · ספרות בלבד",
+   "license": "OFL 1.1",
+   "free": true,
+   "use": "פונט המותג לאנגלית. כותרות 800, גוף 500, תוויות 700. לא תומך עברית.",
+   "mood": "מודרני · נקי · בינלאומי",
+   "source": "Google Fonts",
+   "path": "library/plus-jakarta-sans/",
+   "pairs": "רוביק",
+   "sample": "The quick brown fox jumps over the lazy dog 1234567890",
+   "weights": [
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "PlusJakartaSans-VariableFont_wght.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "PlusJakartaSans-VariableFont_wght.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "PlusJakartaSans-VariableFont_wght.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "PlusJakartaSans-VariableFont_wght.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "PlusJakartaSans-VariableFont_wght.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "heebo",
+   "he": "היבו",
+   "en": "Heebo",
+   "heb": true,
+   "designer": "Oded Ezer · The Heebo Project",
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "use": "גוף טקסט, ממשקים, כתוביות וידאו, כותרות נקיות. סוס-עבודה רב-תכליתי.",
+   "mood": "נקי · מודרני · ניטרלי",
+   "source": "Google Fonts",
+   "path": "library/heebo/",
+   "pairs": "פרנק ריהל ליבר",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "Heebo-Thin.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "Heebo-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "Heebo-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "Heebo-Medium.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "Heebo-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "Heebo-ExtraBold.ttf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "Heebo-Black.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "assistant",
+   "he": "אסיסטנט",
+   "en": "Assistant",
+   "heb": true,
+   "designer": "Ben Nathan",
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "use": "ממשקים, אתרים, גוף טקסט קריא. אלטרנטיבה רחבת-משקלים להיבו.",
+   "mood": "נקי · עכשווי · קריא",
+   "source": "Google Fonts",
+   "path": "library/assistant/",
+   "pairs": "פרנק ריהל ליבר",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "Assistant-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "Assistant-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "Assistant-Regular.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "Assistant-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "Assistant-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "Assistant-ExtraBold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "alef",
+   "he": "אלף",
+   "en": "Alef",
+   "heb": true,
+   "designer": "HaGilda & Mushon Zer-Aviv",
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "use": "גוף טקסט וכותרות, תמיכה עברית טובה, ניטרלי ופונקציונלי.",
+   "mood": "ניטרלי · פונקציונלי · נקי",
+   "source": "Google Fonts",
+   "path": "library/alef/",
+   "pairs": "Suez One",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "Alef-regular.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "Alef-bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "varela-round",
+   "he": "וארלה ראונד",
+   "en": "Varela Round",
+   "heb": true,
+   "designer": "Joe Prince · עברית Eyal Holtzman",
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "use": "כותרות ידידותיות, באנרים, מותגים רכים, תוכן לילדים. פינות מעוגלות.",
+   "mood": "עגול · ידידותי · רך",
+   "source": "Google Fonts",
+   "path": "library/varela-round/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "VarelaRound-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "secular-one",
+   "he": "סקולר וואן",
+   "en": "Secular One",
+   "heb": true,
+   "designer": "Oved Ben-Tov",
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "use": "כותרות ענק, פוסטרים, באנרים בולטים. משקל בודד כבד ופלקטי.",
+   "mood": "כבד · בולט · פלקטי",
+   "source": "Google Fonts",
+   "path": "library/secular-one/",
+   "pairs": "אסיסטנט",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "SecularOne-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "frank-ruhl-libre",
+   "he": "פרנק ריהל ליבר",
+   "en": "Frank Ruhl Libre",
+   "heb": true,
+   "designer": "Yanek Iontef",
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "use": "כותרות עיתונאיות, ספרים, מאמרים, תוכן ארוך. דפוס קלאסי ומכובד.",
+   "mood": "קלאסי · מכובד · עיתונאי",
+   "source": "Google Fonts",
+   "path": "library/frank-ruhl-libre/",
+   "pairs": "היבו",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "FrankRuhlLibre-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "FrankRuhlLibre-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "FrankRuhlLibre-Medium.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "FrankRuhlLibre-Bold.ttf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "FrankRuhlLibre-Black.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "david-libre",
+   "he": "דוד ליבר",
+   "en": "David Libre",
+   "heb": true,
+   "designer": "Yanek Iontef · על בסיס דוד של Friedlaender",
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "use": "גוף טקסט וכותרות, סריף ישראלי קלאסי וקריא מאוד.",
+   "mood": "קלאסי · ישראלי · קריא",
+   "source": "Google Fonts",
+   "path": "library/david-libre/",
+   "pairs": "אסיסטנט",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "DavidLibre-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "DavidLibre-Medium.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "DavidLibre-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "suez-one",
+   "he": "סואז וואן",
+   "en": "Suez One",
+   "heb": true,
+   "designer": "Oded Ezer · HFW",
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "use": "כותרות דרמטיות, ציטוטים, פוסטרים. סריף שמן ונוכח מאוד.",
+   "mood": "דרמטי · נוכח · עיתונאי",
+   "source": "Google Fonts",
+   "path": "library/suez-one/",
+   "pairs": "אסיסטנט",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "SuezOne-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "amatica-sc",
+   "he": "אמטיקה",
+   "en": "Amatica SC",
+   "heb": true,
+   "designer": "Tzvika Rosenberg · Cyreal",
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "use": "כותרות קלילות, הזמנות, תפריטים. אותיות צרות ומצוירות ביד.",
+   "mood": "קליל · מצויר · שובב",
+   "source": "Google Fonts",
+   "path": "library/amatica-sc/",
+   "pairs": "אלף",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "AmaticaSC-Regular.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "AmaticaSC-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "dana-yad",
+   "he": "דנה יד",
+   "en": "Dana Yad",
+   "heb": true,
+   "designer": "סטודיו אאא",
+   "cat": "script",
+   "catHe": "כתב יד",
+   "scripts": "עברית · ספרות",
+   "license": "חינמי (אאא)",
+   "free": true,
+   "use": "כתב-יד יומיומי, ציטוטים, חתימות, מגע אישי וחם.",
+   "mood": "כתב-יד · אישי · נונשלנטי",
+   "source": "alefalefalef.co.il",
+   "path": "library/dana-yad/",
+   "pairs": "אסיסטנט",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Normal",
+     "w": 400,
+     "f": "DanaYadAlefAlefAlef-Normal.otf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "stam",
+   "he": "סת״ם",
+   "en": "STAM",
+   "heb": true,
+   "designer": "Culmus (CLM)",
+   "cat": "stam",
+   "catHe": "סת\"ם",
+   "scripts": "עברית",
+   "license": "GPL",
+   "free": true,
+   "use": "כתב סת\"ם מסורתי, עיצוב יהודי/דתי, כותרות תורניות. אשכנז וספרד.",
+   "mood": "מסורתי · קודש · עתיק",
+   "source": "Culmus / freefonts.co.il",
+   "path": "library/stam/",
+   "pairs": "פרנק ריהל ליבר",
+   "sample": "בְּרֵאשִׁית בָּרָא אֱלֹהִים",
+   "weights": [
+    {
+     "n": "אשכנז",
+     "w": 400,
+     "f": "stamashkenazclm-webfont.ttf"
+    },
+    {
+     "n": "ספרד",
+     "w": 400,
+     "f": "stamsefaradclm-webfont.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "noto-sans-hebrew",
+   "he": "נוטו סאנס עברית",
+   "en": "Noto Sans Hebrew",
+   "heb": true,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Google",
+   "use": "גוף טקסט וממשקים, כיסוי תווים מלא, ניטרלי ואמין.",
+   "mood": "ניטרלי · אמין · מקיף",
+   "source": "Google Fonts",
+   "path": "library/noto-sans-hebrew/",
+   "pairs": "נוטו סריף עברית",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "noto-sans-hebrew-Thin.ttf"
+    },
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "noto-sans-hebrew-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "noto-sans-hebrew-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "noto-sans-hebrew-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "noto-sans-hebrew-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "noto-sans-hebrew-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "noto-sans-hebrew-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "noto-sans-hebrew-ExtraBold.ttf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "noto-sans-hebrew-Black.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "noto-serif-hebrew",
+   "he": "נוטו סריף עברית",
+   "en": "Noto Serif Hebrew",
+   "heb": true,
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Google",
+   "use": "טקסט ארוך, ספרים, מסמכים רשמיים. סריף קריא ומכובד.",
+   "mood": "קריא · רשמי · מכובד",
+   "source": "Google Fonts",
+   "path": "library/noto-serif-hebrew/",
+   "pairs": "נוטו סאנס עברית",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "noto-serif-hebrew-Thin.ttf"
+    },
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "noto-serif-hebrew-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "noto-serif-hebrew-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "noto-serif-hebrew-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "noto-serif-hebrew-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "noto-serif-hebrew-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "noto-serif-hebrew-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "noto-serif-hebrew-ExtraBold.ttf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "noto-serif-hebrew-Black.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "noto-rashi-hebrew",
+   "he": "נוטו רש\"י",
+   "en": "Noto Rashi Hebrew",
+   "heb": true,
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Google",
+   "use": "כתב רש\"י מסורתי, טקסטים תורניים ופרשנות.",
+   "mood": "מסורתי · תורני · קלאסי",
+   "source": "Google Fonts",
+   "path": "library/noto-rashi-hebrew/",
+   "pairs": "פרנק ריהל ליבר",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "noto-rashi-hebrew-Thin.ttf"
+    },
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "noto-rashi-hebrew-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "noto-rashi-hebrew-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "noto-rashi-hebrew-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "noto-rashi-hebrew-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "noto-rashi-hebrew-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "noto-rashi-hebrew-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "noto-rashi-hebrew-ExtraBold.ttf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "noto-rashi-hebrew-Black.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "ibm-plex-sans-hebrew",
+   "he": "IBM פלקס סאנס",
+   "en": "IBM Plex Sans Hebrew",
+   "heb": true,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "IBM · Mike Abbink",
+   "use": "מותגי טכנולוגיה, ממשקים, מצגות. סאנס מודרני עם אופי.",
+   "mood": "טכנולוגי · מדויק · עכשווי",
+   "source": "Google Fonts",
+   "path": "library/ibm-plex-sans-hebrew/",
+   "pairs": "אסיסטנט",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "ibm-plex-sans-hebrew-Thin.ttf"
+    },
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "ibm-plex-sans-hebrew-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "ibm-plex-sans-hebrew-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "ibm-plex-sans-hebrew-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "ibm-plex-sans-hebrew-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "ibm-plex-sans-hebrew-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "ibm-plex-sans-hebrew-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "miriam-libre",
+   "he": "מרים ליבר",
+   "en": "Miriam Libre",
+   "heb": true,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Michal Sahar",
+   "use": "כותרות וגוף, סאנס עברי גיאומטרי ונקי.",
+   "mood": "גיאומטרי · נקי · ישראלי",
+   "source": "Google Fonts",
+   "path": "library/miriam-libre/",
+   "pairs": "פרנק ריהל ליבר",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "miriam-libre-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "miriam-libre-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "miriam-libre-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "miriam-libre-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "bellefair",
+   "he": "בלפר",
+   "en": "Bellefair",
+   "heb": true,
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Eduardo Tunni",
+   "use": "כותרות אלגנטיות, אופנה, מותגי יוקרה. סריף דק ומעודן.",
+   "mood": "אלגנטי · מעודן · יוקרתי",
+   "source": "Google Fonts",
+   "path": "library/bellefair/",
+   "pairs": "אסיסטנט",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "bellefair-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "karantina",
+   "he": "קרנטינה",
+   "en": "Karantina",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Michal Sahar",
+   "use": "כותרות ראווה, פוסטרים, באנרים. דיספליי עברי בעל אופי.",
+   "mood": "בולט · אופייני · ראוותני",
+   "source": "Google Fonts",
+   "path": "library/karantina/",
+   "pairs": "אסיסטנט",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "karantina-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "karantina-Regular.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "karantina-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "arimo",
+   "he": "ארימו",
+   "en": "Arimo",
+   "heb": true,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Steve Matteson",
+   "use": "תחליף תואם-מטרי ל-Arial, מסמכים ומצגות.",
+   "mood": "ניטרלי · תקני · בטוח",
+   "source": "Google Fonts",
+   "path": "library/arimo/",
+   "pairs": "טינוס",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "arimo-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "arimo-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "arimo-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "arimo-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "tinos",
+   "he": "טינוס",
+   "en": "Tinos",
+   "heb": true,
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Steve Matteson",
+   "use": "תחליף תואם-מטרי ל-Times New Roman, מסמכים רשמיים.",
+   "mood": "רשמי · תקני · קלאסי",
+   "source": "Google Fonts",
+   "path": "library/tinos/",
+   "pairs": "ארימו",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "tinos-Regular.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "tinos-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "cousine",
+   "he": "קוזין",
+   "en": "Cousine",
+   "heb": true,
+   "cat": "mono",
+   "catHe": "Mono",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Steve Matteson",
+   "use": "קוד, טבלאות, רוחב קבוע. תחליף ל-Courier.",
+   "mood": "מונוספייס · טכני · תקני",
+   "source": "Google Fonts",
+   "path": "library/cousine/",
+   "pairs": "ארימו",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "cousine-Regular.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "cousine-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "fredoka",
+   "he": "פרדוקה",
+   "en": "Fredoka",
+   "heb": true,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Milena Brandao",
+   "use": "כותרות ידידותיות, ילדים, מותגים שמחים. עגול ומלא.",
+   "mood": "עגול · שמח · ידידותי",
+   "source": "Google Fonts",
+   "path": "library/fredoka/",
+   "pairs": "וארלה ראונד",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "fredoka-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "fredoka-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "fredoka-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "fredoka-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "fredoka-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "open-sans",
+   "he": "אופן סאנס",
+   "en": "Open Sans",
+   "heb": true,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Steve Matteson",
+   "use": "גוף טקסט רב-תכליתי, אתרים, מסמכים. קריא בכל גודל.",
+   "mood": "ניטרלי · קריא · רב-שימושי",
+   "source": "Google Fonts",
+   "path": "library/open-sans/",
+   "pairs": "פרנק ריהל ליבר",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "open-sans-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "open-sans-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "open-sans-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "open-sans-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "open-sans-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "open-sans-ExtraBold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "bona-nova",
+   "he": "בונה נובה",
+   "en": "Bona Nova",
+   "heb": true,
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Mateusz Machalski",
+   "use": "כותרות וטקסט, סריף קלאסי עם נגיעה ספרותית.",
+   "mood": "ספרותי · קלאסי · חמים",
+   "source": "Google Fonts",
+   "path": "library/bona-nova/",
+   "pairs": "אסיסטנט",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "bona-nova-Regular.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "bona-nova-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "cardo",
+   "he": "קארדו",
+   "en": "Cardo",
+   "heb": true,
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "David Perry",
+   "use": "מחקר אקדמי, טקסטים קלאסיים, רב-לשוני. סריף מלומד.",
+   "mood": "אקדמי · קלאסי · מלומד",
+   "source": "Google Fonts",
+   "path": "library/cardo/",
+   "pairs": "אסיסטנט",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "cardo-Regular.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "cardo-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "libertinus-serif",
+   "he": "ליברטינוס סריף",
+   "en": "Libertinus Serif",
+   "heb": true,
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Libertinus Project",
+   "use": "מסמכים אקדמיים, נוסחאות, טקסט ארוך. סריף איכותי.",
+   "mood": "אקדמי · איכותי · קלאסי",
+   "source": "Google Fonts",
+   "path": "library/libertinus-serif/",
+   "pairs": "אסיסטנט",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "libertinus-serif-Regular.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "libertinus-serif-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "libertinus-serif-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "lunasima",
+   "he": "לונסימה",
+   "en": "Lunasima",
+   "heb": true,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "The Fontwork",
+   "use": "גוף טקסט וממשקים, סאנס קריא בשני משקלים.",
+   "mood": "נקי · קריא · עכשווי",
+   "source": "Google Fonts",
+   "path": "library/lunasima/",
+   "pairs": "נוטו סריף עברית",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "lunasima-Regular.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "lunasima-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "gveret-levin",
+   "he": "גברת לוין",
+   "en": "Gveret Levin Alef Alef Alef",
+   "heb": true,
+   "cat": "script",
+   "catHe": "כתב יד",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Gili Levin · אאא",
+   "use": "כתב יד אישי, ציטוטים, כותרות חמות.",
+   "mood": "כתב-יד · אישי · חם",
+   "source": "Google Fonts",
+   "path": "library/gveret-levin/",
+   "pairs": "אסיסטנט",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "gveret-levin-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "playpen-sans-hebrew",
+   "he": "פלייפן סאנס",
+   "en": "Playpen Sans Hebrew",
+   "heb": true,
+   "cat": "script",
+   "catHe": "כתב יד",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "TypeTogether",
+   "use": "כתב-יד ילדותי, חינוך, תוכן צעיר ושובב.",
+   "mood": "ילדותי · שובב · קליל",
+   "source": "Google Fonts",
+   "path": "library/playpen-sans-hebrew/",
+   "pairs": "פרדוקה",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "playpen-sans-hebrew-Thin.ttf"
+    },
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "playpen-sans-hebrew-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "playpen-sans-hebrew-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "playpen-sans-hebrew-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "playpen-sans-hebrew-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "playpen-sans-hebrew-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "playpen-sans-hebrew-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "playpen-sans-hebrew-ExtraBold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "solitreo",
+   "he": "סוליטראו",
+   "en": "Solitreo",
+   "heb": true,
+   "cat": "script",
+   "catHe": "כתב יד",
+   "scripts": "עברית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Michal Sahar",
+   "use": "כתב-יד עברי זורם בהשראת כתב ספרדי מסורתי.",
+   "mood": "זורם · מסורתי · אישי",
+   "source": "Google Fonts",
+   "path": "library/solitreo/",
+   "pairs": "פרנק ריהל ליבר",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "solitreo-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "handjet",
+   "he": "הנדג׳ט",
+   "en": "Handjet",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Rosetta",
+   "use": "כותרות ניסיוניות, אפקט פיקסל/רשת, ראווה.",
+   "mood": "ניסיוני · גיאומטרי · ראוותני",
+   "source": "Google Fonts",
+   "path": "library/handjet/",
+   "pairs": "אסיסטנט",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "handjet-Thin.ttf"
+    },
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "handjet-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "handjet-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "handjet-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "handjet-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "handjet-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "handjet-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "handjet-ExtraBold.ttf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "handjet-Black.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-glitch",
+   "he": "רוביק גליץ׳",
+   "en": "Rubik Glitch",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "גליץ׳ · דיגיטלי · משובש",
+   "source": "Google Fonts",
+   "path": "library/rubik-glitch/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-glitch-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-glitch-pop",
+   "he": "רוביק גליץ׳ פופ",
+   "en": "Rubik Glitch Pop",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "פופ · צבעוני · נועז",
+   "source": "Google Fonts",
+   "path": "library/rubik-glitch-pop/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-glitch-pop-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-wet-paint",
+   "he": "רוביק וֶט פיינט",
+   "en": "Rubik Wet Paint",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "צבע נוטף · אורבני",
+   "source": "Google Fonts",
+   "path": "library/rubik-wet-paint/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-wet-paint-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-spray-paint",
+   "he": "רוביק ספריי",
+   "en": "Rubik Spray Paint",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "גרפיטי · רחוב",
+   "source": "Google Fonts",
+   "path": "library/rubik-spray-paint/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-spray-paint-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-moonrocks",
+   "he": "רוביק מונרוקס",
+   "en": "Rubik Moonrocks",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "חלל · מנוקד · מסתורי",
+   "source": "Google Fonts",
+   "path": "library/rubik-moonrocks/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-moonrocks-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-burned",
+   "he": "רוביק שרוף",
+   "en": "Rubik Burned",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "שרוף · אפל",
+   "source": "Google Fonts",
+   "path": "library/rubik-burned/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-burned-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-dirt",
+   "he": "רוביק דֶרט",
+   "en": "Rubik Dirt",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "מלוכלך · גראנג׳",
+   "source": "Google Fonts",
+   "path": "library/rubik-dirt/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-dirt-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-distressed",
+   "he": "רוביק דיסטרסט",
+   "en": "Rubik Distressed",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "שחוק · וינטג׳",
+   "source": "Google Fonts",
+   "path": "library/rubik-distressed/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-distressed-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-iso",
+   "he": "רוביק איזו",
+   "en": "Rubik Iso",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "תלת-ממד · איזומטרי",
+   "source": "Google Fonts",
+   "path": "library/rubik-iso/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-iso-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-lines",
+   "he": "רוביק ליינס",
+   "en": "Rubik Lines",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "קווי · מינימליסטי",
+   "source": "Google Fonts",
+   "path": "library/rubik-lines/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-lines-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-maze",
+   "he": "רוביק מייז",
+   "en": "Rubik Maze",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "מבוך · גיאומטרי",
+   "source": "Google Fonts",
+   "path": "library/rubik-maze/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-maze-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-microbe",
+   "he": "רוביק מיקרוב",
+   "en": "Rubik Microbe",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "אורגני · מיקרו",
+   "source": "Google Fonts",
+   "path": "library/rubik-microbe/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-microbe-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-pixels",
+   "he": "רוביק פיקסלז",
+   "en": "Rubik Pixels",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "פיקסל · רטרו · גיימינג",
+   "source": "Google Fonts",
+   "path": "library/rubik-pixels/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-pixels-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-puddles",
+   "he": "רוביק פאדלז",
+   "en": "Rubik Puddles",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "שלוליות · נוזלי",
+   "source": "Google Fonts",
+   "path": "library/rubik-puddles/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-puddles-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-scribble",
+   "he": "רוביק סקריבל",
+   "en": "Rubik Scribble",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "שרבוט · ילדותי",
+   "source": "Google Fonts",
+   "path": "library/rubik-scribble/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-scribble-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-storm",
+   "he": "רוביק סטורם",
+   "en": "Rubik Storm",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "סוער · קווי",
+   "source": "Google Fonts",
+   "path": "library/rubik-storm/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-storm-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-vinyl",
+   "he": "רוביק ויניל",
+   "en": "Rubik Vinyl",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "ויניל · רטרו",
+   "source": "Google Fonts",
+   "path": "library/rubik-vinyl/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-vinyl-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-beastly",
+   "he": "רוביק ביסטלי",
+   "en": "Rubik Beastly",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "מפלצתי · עבה",
+   "source": "Google Fonts",
+   "path": "library/rubik-beastly/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-beastly-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-bubbles",
+   "he": "רוביק באבלז",
+   "en": "Rubik Bubbles",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "בועות · שמח",
+   "source": "Google Fonts",
+   "path": "library/rubik-bubbles/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-bubbles-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-broken-fax",
+   "he": "רוביק פקס",
+   "en": "Rubik Broken Fax",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "פקס שבור · גליץ׳",
+   "source": "Google Fonts",
+   "path": "library/rubik-broken-fax/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-broken-fax-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-gemstones",
+   "he": "רוביק גֶמסטונז",
+   "en": "Rubik Gemstones",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "אבני חן · מנצנץ",
+   "source": "Google Fonts",
+   "path": "library/rubik-gemstones/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-gemstones-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-marker-hatch",
+   "he": "רוביק מרקר",
+   "en": "Rubik Marker Hatch",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "טוש · קווקווים",
+   "source": "Google Fonts",
+   "path": "library/rubik-marker-hatch/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-marker-hatch-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-maps",
+   "he": "רוביק מאפּס",
+   "en": "Rubik Maps",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "מפות · קונטור",
+   "source": "Google Fonts",
+   "path": "library/rubik-maps/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-maps-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-doodle-shadow",
+   "he": "רוביק דודל שאדו",
+   "en": "Rubik Doodle Shadow",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "שרבוט · צל",
+   "source": "Google Fonts",
+   "path": "library/rubik-doodle-shadow/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-doodle-shadow-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-doodle-triangles",
+   "he": "רוביק דודל",
+   "en": "Rubik Doodle Triangles",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "שרבוט · משולשים",
+   "source": "Google Fonts",
+   "path": "library/rubik-doodle-triangles/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-doodle-triangles-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "rubik-80s-fade",
+   "he": "רוביק 80s",
+   "en": "Rubik 80s Fade",
+   "heb": true,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "עברית · לטינית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Hubert & Fischer (Rubik variant)",
+   "use": "כותרת ראווה באפקט. לסושיאל ויצירתי.",
+   "mood": "שנות ה-80 · ניאון",
+   "source": "Google Fonts",
+   "path": "library/rubik-80s-fade/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "rubik-80s-fade-Regular.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "inter",
+   "he": "אינטר",
+   "en": "Inter",
+   "heb": false,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "לטינית · ספרות בלבד",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Rasmus Andersson",
+   "use": "ממשקים, אפליקציות, גוף טקסט. תקן תעשייה ל-UI.",
+   "mood": "נקי · ניטרלי · UI",
+   "source": "Google Fonts",
+   "path": "library/inter/",
+   "pairs": "רוביק",
+   "sample": "The quick brown fox jumps over the lazy dog 1234567890",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "inter-Thin.ttf"
+    },
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "inter-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "inter-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "inter-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "inter-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "inter-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "inter-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "inter-ExtraBold.ttf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "inter-Black.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "archivo",
+   "he": "ארכיבו",
+   "en": "Archivo",
+   "heb": false,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "לטינית · ספרות בלבד",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Omnibus-Type",
+   "use": "כותרות ועיתונות, גרוטסק עם אופי. רחב-משקלים.",
+   "mood": "חזק · עיתונאי · גמיש",
+   "source": "Google Fonts",
+   "path": "library/archivo/",
+   "pairs": "פרנק ריהל ליבר",
+   "sample": "The quick brown fox jumps over the lazy dog 1234567890",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "archivo-Thin.ttf"
+    },
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "archivo-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "archivo-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "archivo-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "archivo-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "archivo-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "archivo-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "archivo-ExtraBold.ttf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "archivo-Black.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "space-grotesk",
+   "he": "ספייס גרוטסק",
+   "en": "Space Grotesk",
+   "heb": false,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "לטינית · ספרות בלבד",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Florian Karsten",
+   "use": "כותרות טכנולוגיות, מותגי סטארטאפ. גיאומטרי עם טוויסט.",
+   "mood": "טכנולוגי · עכשווי · נקי",
+   "source": "Google Fonts",
+   "path": "library/space-grotesk/",
+   "pairs": "אסיסטנט",
+   "sample": "The quick brown fox jumps over the lazy dog 1234567890",
+   "weights": [
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "space-grotesk-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "space-grotesk-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "space-grotesk-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "space-grotesk-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "space-grotesk-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "sora",
+   "he": "סורה",
+   "en": "Sora",
+   "heb": false,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "לטינית · ספרות בלבד",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Jonny Pinhorn",
+   "use": "כותרות וממשקים, סאנס גיאומטרי מודרני.",
+   "mood": "מודרני · גיאומטרי · נקי",
+   "source": "Google Fonts",
+   "path": "library/sora/",
+   "pairs": "רוביק",
+   "sample": "The quick brown fox jumps over the lazy dog 1234567890",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "sora-Thin.ttf"
+    },
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "sora-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "sora-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "sora-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "sora-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "sora-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "sora-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "sora-ExtraBold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "fraunces",
+   "he": "פראונסס",
+   "en": "Fraunces",
+   "heb": false,
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "לטינית · ספרות בלבד",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Undercase Type",
+   "use": "כותרות אופנתיות, מותגי יוקרה, מגזינים. סריף עם אישיות.",
+   "mood": "אלגנטי · אופנתי · רגשי",
+   "source": "Google Fonts",
+   "path": "library/fraunces/",
+   "pairs": "אינטר",
+   "sample": "The quick brown fox jumps over the lazy dog 1234567890",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "fraunces-Thin.ttf"
+    },
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "fraunces-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "fraunces-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "fraunces-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "fraunces-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "fraunces-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "fraunces-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "fraunces-ExtraBold.ttf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "fraunces-Black.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "libre-franklin",
+   "he": "ליבר פרנקלין",
+   "en": "Libre Franklin",
+   "heb": false,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "לטינית · ספרות בלבד",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Pablo Impallari",
+   "use": "גוף וכותרות, גרוטסק אמריקאי קלאסי.",
+   "mood": "קלאסי · אמין · קריא",
+   "source": "Google Fonts",
+   "path": "library/libre-franklin/",
+   "pairs": "פרנק ריהל ליבר",
+   "sample": "The quick brown fox jumps over the lazy dog 1234567890",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "libre-franklin-Thin.ttf"
+    },
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "libre-franklin-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "libre-franklin-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "libre-franklin-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "libre-franklin-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "libre-franklin-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "libre-franklin-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "libre-franklin-ExtraBold.ttf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "libre-franklin-Black.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "manrope",
+   "he": "מנרופ",
+   "en": "Manrope",
+   "heb": false,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "לטינית · ספרות בלבד",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Mikhail Sharanda",
+   "use": "ממשקים מודרניים, סטארטאפים. גיאומטרי-הומניסטי.",
+   "mood": "מודרני · נקי · רך",
+   "source": "Google Fonts",
+   "path": "library/manrope/",
+   "pairs": "רוביק",
+   "sample": "The quick brown fox jumps over the lazy dog 1234567890",
+   "weights": [
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "manrope-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "manrope-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "manrope-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "manrope-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "manrope-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "manrope-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "manrope-ExtraBold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "outfit",
+   "he": "אאוטפיט",
+   "en": "Outfit",
+   "heb": false,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "לטינית · ספרות בלבד",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Rodrigo Fuenzalida",
+   "use": "כותרות וממשקים, גיאומטרי אחיד ונקי.",
+   "mood": "גיאומטרי · אחיד · מינימלי",
+   "source": "Google Fonts",
+   "path": "library/outfit/",
+   "pairs": "רוביק",
+   "sample": "The quick brown fox jumps over the lazy dog 1234567890",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "outfit-Thin.ttf"
+    },
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "outfit-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "outfit-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "outfit-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "outfit-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "outfit-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "outfit-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "outfit-ExtraBold.ttf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "outfit-Black.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "dm-sans",
+   "he": "DM סאנס",
+   "en": "DM Sans",
+   "heb": false,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "לטינית · ספרות בלבד",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Colophon Foundry",
+   "use": "גוף טקסט וממשקים, גיאומטרי בגדלים קטנים.",
+   "mood": "נקי · מינימלי · קריא",
+   "source": "Google Fonts",
+   "path": "library/dm-sans/",
+   "pairs": "פרנק ריהל ליבר",
+   "sample": "The quick brown fox jumps over the lazy dog 1234567890",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "dm-sans-Thin.ttf"
+    },
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "dm-sans-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "dm-sans-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "dm-sans-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "dm-sans-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "dm-sans-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "dm-sans-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "dm-sans-ExtraBold.ttf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "dm-sans-Black.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "epilogue",
+   "he": "אפילוג",
+   "en": "Epilogue",
+   "heb": false,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "לטינית · ספרות בלבד",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Tyler Finck",
+   "use": "כותרות מודרניות, מותגים עכשוויים.",
+   "mood": "עכשווי · גמיש · נקי",
+   "source": "Google Fonts",
+   "path": "library/epilogue/",
+   "pairs": "אסיסטנט",
+   "sample": "The quick brown fox jumps over the lazy dog 1234567890",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "epilogue-Thin.ttf"
+    },
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "epilogue-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "epilogue-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "epilogue-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "epilogue-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "epilogue-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "epilogue-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "epilogue-ExtraBold.ttf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "epilogue-Black.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "playfair-display",
+   "he": "פלייפר דיספליי",
+   "en": "Playfair Display",
+   "heb": false,
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "לטינית · ספרות בלבד",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Claus Eggers Sørensen",
+   "use": "כותרות יוקרה, אופנה, מסעדות. קונטרסט גבוה.",
+   "mood": "יוקרתי · דרמטי · אלגנטי",
+   "source": "Google Fonts",
+   "path": "library/playfair-display/",
+   "pairs": "אינטר",
+   "sample": "The quick brown fox jumps over the lazy dog 1234567890",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "playfair-display-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "playfair-display-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "playfair-display-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "playfair-display-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "playfair-display-ExtraBold.ttf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "playfair-display-Black.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "bricolage-grotesque",
+   "he": "בריקולאז׳",
+   "en": "Bricolage Grotesque",
+   "heb": false,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "לטינית · ספרות בלבד",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Mathieu Triay",
+   "use": "כותרות יצירתיות, מותגי דיזיין. גרוטסק עם אופי.",
+   "mood": "יצירתי · אופייני · עכשווי",
+   "source": "Google Fonts",
+   "path": "library/bricolage-grotesque/",
+   "pairs": "אינטר",
+   "sample": "The quick brown fox jumps over the lazy dog 1234567890",
+   "weights": [
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "bricolage-grotesque-ExtraLight.ttf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "bricolage-grotesque-Light.ttf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "bricolage-grotesque-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "bricolage-grotesque-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "bricolage-grotesque-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "bricolage-grotesque-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "bricolage-grotesque-ExtraBold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "mekorot",
+   "he": "מקורות",
+   "en": "Mekorot",
+   "heb": true,
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Meir Sadan · Google Fonts",
+   "use": "טקסטים עבריים שכבתיים, אקדמי ומסורתי. עוצב לליווי פרשנות ומקורות.",
+   "mood": "מלומד · מסורתי · קריא",
+   "source": "GitHub googlefonts/mekorot",
+   "path": "library/mekorot/",
+   "pairs": "נוטו סאנס עברית",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "mekorot-Regular.ttf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "mekorot-Medium.ttf"
+    },
+    {
+     "n": "SemiBold",
+     "w": 600,
+     "f": "mekorot-SemiBold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "mekorot-Bold.ttf"
+    },
+    {
+     "n": "ExtraBold",
+     "w": 800,
+     "f": "mekorot-ExtraBold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "mekorot-rashi",
+   "he": "מקורות רש״י",
+   "en": "Mekorot Rashi",
+   "heb": true,
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "עברית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Meir Sadan",
+   "use": "כתב רש\"י לפרשנות, הערות שוליים וטקסטים תורניים.",
+   "mood": "רש\"י · מסורתי · פרשני",
+   "source": "GitHub googlefonts/mekorot",
+   "path": "library/mekorot-rashi/",
+   "pairs": "מקורות",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "mekorot-rashi-Regular.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "mekorot-rashi-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "mekorot-vilna",
+   "he": "מקורות וילנא",
+   "en": "Mekorot Vilna",
+   "heb": true,
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "עברית",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Meir Sadan",
+   "use": "סגנון דפוס וילנא הקלאסי לטקסטים תורניים ומקורות.",
+   "mood": "וילנא · מסורתי · דפוסי",
+   "source": "GitHub googlefonts/mekorot",
+   "path": "library/mekorot-vilna/",
+   "pairs": "מקורות",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "mekorot-vilna-Regular.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "mekorot-vilna-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "jetbrains-mono-hebrew",
+   "he": "ג׳טבריינס מונו עברית",
+   "en": "JetBrains Mono Hebrew",
+   "heb": true,
+   "cat": "mono",
+   "catHe": "Mono",
+   "scripts": "עברית · לטינית · ספרות",
+   "license": "OFL 1.1",
+   "free": true,
+   "designer": "Ariel Agor (JetBrains × Alef)",
+   "use": "קוד, טרמינל, טבלאות וטקסט ברוחב קבוע עם עברית. מונוספייס עברי נדיר.",
+   "mood": "מונוספייס · טכני · קוד",
+   "source": "GitHub arielagor/jetbrains-mono-hebrew",
+   "path": "library/jetbrains-mono-hebrew/",
+   "pairs": "אסיסטנט",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "jetbrains-mono-hebrew-Regular.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "jetbrains-mono-hebrew-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "keter-yg",
+   "he": "כתר YG",
+   "en": "Keter YG",
+   "heb": true,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית",
+   "license": "GPL",
+   "free": true,
+   "designer": "Yoram Gnat",
+   "use": "כותרות וטקסט, סאנס עברי בהשראת גופן כתר הקלאסי.",
+   "mood": "נקי · עכשווי · ישראלי",
+   "source": "GitHub ibleaman/Keter-YG",
+   "path": "library/keter-yg/",
+   "pairs": "פרנק ריהל ליבר",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "keter-yg-Medium.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "keter-yg-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "drugulin",
+   "he": "דרוגולין",
+   "en": "Drugulin",
+   "heb": true,
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "עברית",
+   "license": "GPL",
+   "free": true,
+   "designer": "Culmus (CLM)",
+   "use": "סריף עברי קלאסי לכותרות וטקסט, אופי דפוס ישן ומכובד.",
+   "mood": "קלאסי · דפוסי · עתיק",
+   "source": "freefonts.co.il / Culmus",
+   "path": "library/drugulin/",
+   "pairs": "אסיסטנט",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "drugulin-Bold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "drugulin-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "nachlieli",
+   "he": "נחליאלי",
+   "en": "Nachlieli",
+   "heb": true,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית",
+   "license": "GPL",
+   "free": true,
+   "designer": "Culmus (CLM)",
+   "use": "סאנס עברי קלאסי של פרויקט Culmus, גוף טקסט נקי וקריא.",
+   "mood": "נקי · קלאסי · ניטרלי",
+   "source": "freefonts.co.il / Culmus",
+   "path": "library/nachlieli/",
+   "pairs": "דרוגולין",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "nachlieli-Bold.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "nachlieli-Bold.ttf"
+    }
+   ],
+   "redistributable": true
+  },
+  {
+   "slug": "narkis-block",
+   "he": "נרקיס בלוק",
+   "en": "Narkis Block",
+   "heb": true,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית",
+   "license": "בתשלום (רישיון אוריה)",
+   "free": false,
+   "owned": true,
+   "redistributable": false,
+   "designer": "FontBit · Zvika Rosenberg",
+   "use": "כותרות פרימיום, מיתוג, פוסטרים. סאנס עברי חזק ואיכותי.",
+   "mood": "חזק · פרימיום · נקי",
+   "source": "FontBit",
+   "path": "library/narkis-block/",
+   "pairs": " רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "narkis-block-Thin.otf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "narkis-block-Regular.otf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "narkis-block-Medium.otf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "narkis-block-Bold.otf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "narkis-block-Black.otf"
+    }
+   ]
+  },
+  {
+   "slug": "tubic-sans",
+   "he": "טוביק סאנס",
+   "en": "Tubic Sans",
+   "heb": true,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית",
+   "license": "בתשלום (רישיון אוריה)",
+   "free": false,
+   "owned": true,
+   "redistributable": false,
+   "designer": "FontBit",
+   "use": "גוף טקסט וממשקים, סאנס עברי רחב-משקלים ונקי.",
+   "mood": "נקי · רב-תכליתי · עכשווי",
+   "source": "FontBit",
+   "path": "library/tubic-sans/",
+   "pairs": "פרנק ריהל ליבר",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "ExtraLight",
+     "w": 200,
+     "f": "tubic-sans-ExtraLight.otf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "tubic-sans-Light.otf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "tubic-sans-Regular.otf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "tubic-sans-Medium.otf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "tubic-sans-Bold.otf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "tubic-sans-Black.otf"
+    }
+   ]
+  },
+  {
+   "slug": "einstein",
+   "he": "איינשטיין",
+   "en": "Einstein",
+   "heb": false,
+   "cat": "display",
+   "catHe": "Display",
+   "scripts": "לטינית",
+   "license": "בתשלום (רישיון אוריה)",
+   "free": false,
+   "owned": true,
+   "redistributable": false,
+   "designer": "FontBit",
+   "use": "כותרות ראווה, מיתוג, פוסטרים. דיספליי איכותי.",
+   "mood": "בולט · עיצובי · פרימיום",
+   "source": "FontBit",
+   "path": "library/einstein/",
+   "pairs": "אסיסטנט",
+   "sample": "Abcd Einstein 123",
+   "weights": [
+    {
+     "n": "Thin",
+     "w": 100,
+     "f": "einstein-Thin.otf"
+    },
+    {
+     "n": "Light",
+     "w": 300,
+     "f": "einstein-Light.otf"
+    },
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "einstein-Regular.otf"
+    },
+    {
+     "n": "Medium",
+     "w": 500,
+     "f": "einstein-Medium.otf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "einstein-Bold.otf"
+    },
+    {
+     "n": "Black",
+     "w": 900,
+     "f": "einstein-Black.otf"
+    }
+   ]
+  },
+  {
+   "slug": "narkisim",
+   "he": "נרקיסים",
+   "en": "Narkisim",
+   "heb": true,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית",
+   "license": "מערכת Windows (רישיון אוריה)",
+   "free": false,
+   "owned": true,
+   "redistributable": false,
+   "designer": "Microsoft · Zvi Narkiss",
+   "use": "גוף טקסט עברי קלאסי של מערכת, קריא ומוכר.",
+   "mood": "קלאסי · מערכתי · קריא",
+   "source": "Windows",
+   "path": "library/narkisim/",
+   "pairs": "דוד ליבר",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "narkisim-Regular.ttf"
+    }
+   ]
+  },
+  {
+   "slug": "hadassah",
+   "he": "הדסה",
+   "en": "Hadassah Friedlaender",
+   "heb": true,
+   "cat": "serif",
+   "catHe": "Serif",
+   "scripts": "עברית · לטינית",
+   "license": "מערכת Windows (רישיון אוריה)",
+   "free": false,
+   "owned": true,
+   "redistributable": false,
+   "designer": "Microsoft · Henri Friedlaender",
+   "use": "סריף עברי קלאסי ומכובד, ספרים ומסמכים.",
+   "mood": "קלאסי · מכובד · ספרותי",
+   "source": "Windows",
+   "path": "library/hadassah/",
+   "pairs": "אסיסטנט",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Regular",
+     "w": 400,
+     "f": "hadassah-Regular.ttf"
+    },
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "hadassah-Bold.ttf"
+    }
+   ]
+  },
+  {
+   "slug": "aharoni",
+   "he": "אהרוני",
+   "en": "Aharoni",
+   "heb": true,
+   "cat": "sans",
+   "catHe": "Sans",
+   "scripts": "עברית · לטינית",
+   "license": "מערכת Windows (רישיון אוריה)",
+   "free": false,
+   "owned": true,
+   "redistributable": false,
+   "designer": "Microsoft",
+   "use": "כותרות עבות ומודגשות, סאנס עברי מערכתי בולט.",
+   "mood": "עבה · מודגש · בולט",
+   "source": "Windows",
+   "path": "library/aharoni/",
+   "pairs": "רוביק",
+   "sample": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+   "weights": [
+    {
+     "n": "Bold",
+     "w": 700,
+     "f": "aharoni-Bold.ttf"
+    }
+   ]
+  }
+ ]
+}

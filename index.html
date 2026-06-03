@@ -7,6 +7,7 @@
 <script src="catalog/fonts.js"></script>
 <script src="catalog/fonts-gf.js"></script>
 <script src="catalog/fonts-en.js"></script>
+<script src="catalog/fonts-unique.js"></script>
 <style>
 :root{--paper:#F1EEF8;--ink:#0A0A0A;--aubergine:#4C1D95;--teal:#0EA5BB;--tang:#FF6B35;--line:#E6E0F0;--ink2:#6B6473;--card:#FFFFFF}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -39,6 +40,9 @@ header{position:sticky;top:0;z-index:50}
 .chip{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.28);padding:5px 13px;font-size:13px;cursor:pointer;font-family:'rubik'}
 .chip:hover{background:rgba(255,255,255,.18)}
 .chip.active{background:#fff;color:var(--aubergine);font-weight:700;border-color:#fff}
+.grp-label{font-size:11px;font-weight:700;color:rgba(255,255,255,.55);align-self:center}
+.chip.tab{font-weight:700}
+.chip.tab.active{background:var(--tang);color:#fff;border-color:var(--tang)}
 
 main{max-width:1340px;margin:0 auto;padding:24px 26px}
 #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,274px),1fr));gap:16px;align-items:start}
@@ -105,13 +109,17 @@ footer code{font-family:'pjs';background:#E7E0F2;padding:1px 6px}
     <div class="controls">
       <input type="text" id="search" placeholder="חיפוש פונט…">
       <input type="text" id="liveText" placeholder="טקסט לתצוגה חיה…">
-      <label>גודל <input type="range" id="sizeRange" min="28" max="96" value="50"></label>
+      <label title="גודל הטקסט הגדול בפונט פתוח">גודל תצוגה <input type="range" id="sizeRange" min="28" max="96" value="50"></label>
     </div>
   </div>
   <div class="hrow2">
     <span class="count" id="count"></span>
     <span class="fdiv"></span>
-    <div id="filters" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+    <span class="grp-label">שפה</span>
+    <div id="tabs" style="display:flex;flex-wrap:wrap;gap:6px"></div>
+    <span class="fdiv"></span>
+    <span class="grp-label">סגנון</span>
+    <div id="filters" style="display:flex;flex-wrap:wrap;gap:6px"></div>
   </div>
 </header>
 <main><div id="grid"></div></main>
@@ -125,18 +133,24 @@ const FONTS=window.FONTS||[];
 /* master instruction for Claude Code, per font */
 function buildInstr(ft){
   const base='C:\\Users\\Uria\\.claude\\skills\\fonts\\'+ft.path.replace(/\//g,'\\');
-  const weights=ft.weights.map(w=>w.n+' ('+w.f+')').join(', ');
-  const lic=ft.redistributable===false ? ft.license+' · אסור להפצה (שימוש מקומי בלבד)' : ft.license;
-  return 'משימה: שלב את הפונט "'+ft.he+' / '+ft.en+'" מספריית הפונטים שלי (skill: fonts).\n\n'+
-  'מיקום הקבצים (נאמנות מלאה למקור - השתמש בקובץ המדויק, אל תחליף בפונט דומה):\n'+base+'\n'+
-  'משקלים זמינים: '+weights+'\n'+
-  'רישיון: '+lic+'\n\n'+
-  'בצע לפי סוג המשימה:\n'+
-  '• כתוביות וידאו (ffmpeg): השתמש ב-fontfile עם הנתיב המלא של המשקל הרצוי, או התקן את הפונט והשתמש ב-force_style=\'FontName='+ft.en+'\'. שמור RTL לעברית.\n'+
-  '• עיצוב / תמונה (image-generation / gpt2-image / design): העבר את נתיב קובץ הפונט למחולל.\n'+
-  '• מסמך וורד / הדפסה: התקן את הקובץ ל-C:\\Windows\\Fonts ובחר את "'+ft.en+'".\n'+
-  '• web / HTML (motion / satori): @font-face { font-family:\''+ft.en+'\'; src:url(\'<path>\') }.\n\n'+
-  'חובה: נאמנות מלאה למקור - הפונט המדויק הזה.';
+  const weights=ft.weights.map(w=>w.n+' '+w.w+' ('+w.f+')').join(', ');
+  const lic=ft.redistributable===false ? ft.license+' · שימוש מקומי בלבד, לא להפצה' : ft.license+' · חופשי';
+  return '## הקשר: שילוב הפונט "'+ft.he+' / '+ft.en+'" מספריית הפונטים שלי (skill: fonts)\n'+
+  'בלוק ההקשר הבא נותן לך כל מה שצריך כדי לשלב את הפונט בצורה מקצועית במשימה הנוכחית - יהיה אופייה אשר יהיה. התאם את היישום למשימה; אל תיצמד לרשימה למטה אם המשימה דורשת אחרת. המטרה: לקצר תהליך ולעבוד נכון מהפעם הראשונה.\n\n'+
+  '### זהות הפונט\n'+
+  '- שם: '+ft.he+' / '+ft.en+'  ·  קטגוריה: '+ft.catHe+'\n'+
+  '- קבצים (השתמש בקובץ המדויק - נאמנות למקור, אל תחליף בפונט דומה):\n  '+base+'\n'+
+  '- משקלים זמינים: '+weights+'\n'+
+  '- סקריפטים: '+ft.scripts+'  ·  אופי: '+ft.mood+'\n'+
+  '- מתאים ל: '+ft.use+'  ·  זיווג מומלץ: '+ft.pairs+'\n'+
+  '- רישיון: '+lic+'\n\n'+
+  '### איך לשלב (בחר/התאם לפי המשימה)\n'+
+  '- כתוביות וידאו (ffmpeg/libass): טען את קובץ המשקל כ-fontfile, או התקן והשתמש ב-force_style "FontName='+ft.en+'". שמור RTL ועיגון נכון לעברית.\n'+
+  '- תמונה/עיצוב (image-generation, gpt2-image, design, satori): ספק את נתיב הקובץ למחולל, או הטמע כ-@font-face/base64.\n'+
+  '- אתר/אנימציה (motion, landing): @font-face עם הקובץ; המר ל-woff2 לאופטימיזציה אם צריך.\n'+
+  '- מסמך/וורד/PDF: התקן את הקובץ במערכת ובחר את המשפחה.\n\n'+
+  '### עקרונות\n'+
+  'בחר משקל לפי התפקיד (כותרת ראשית=Black/Bold, גוף=Regular, הדגשה=Medium). חסר פורמט (woff/woff2/otf)? המר עם fonttools. הפונט לא מותקן והמשימה דורשת? התקן. ודא שהעברית מתרנדרת נכון (RTL, ניקוד אם רלוונטי). הפונט הזה הוא המקור - אל תחליף אלא אם אבקש במפורש.';
 }
 /* @font-face injection */
 const st=document.createElement('style');let css='';
@@ -148,18 +162,17 @@ st.textContent=css;document.head.appendChild(st);
 
 const grid=document.getElementById('grid');
 const heroW=ft=>ft.weights.some(x=>x.w===400)?400:ft.weights[Math.floor(ft.weights.length/2)].w;
-let activeCat='all', q='';
+let activeScript='all', activeCat='all', q='';
 
 function build(){
   grid.innerHTML='';
   const list=FONTS.filter(f=>{
     if(q && !(f.he+f.en).toLowerCase().includes(q)) return false;
-    const a=activeCat;
-    if(a==='all') return true;
-    if(a==='heb') return f.heb;
-    if(a==='latin') return !f.heb;
-    if(a==='owned') return f.owned;
-    return f.cat===a;
+    if(activeScript==='heb' && !f.heb) return false;
+    if(activeScript==='latin' && f.heb) return false;
+    if(activeScript==='owned' && !f.owned) return false;
+    if(activeCat!=='all' && f.cat!==activeCat) return false;
+    return true;
   });
   // classics first, decorative Rubik FX last
   const rfx=s=>/^rubik-/.test(s)&&s!=='rubik';
@@ -228,15 +241,11 @@ function wire(){
     const ci=tile.querySelector('.copyinstr'); if(ci&&ft) ci.onclick=e=>{e.stopPropagation();try{navigator.clipboard&&navigator.clipboard.writeText(buildInstr(ft));}catch(x){}ci.textContent='הועתק ✓';setTimeout(()=>ci.textContent='העתק הוראה',1400);};
   });
 }
-const cats=[['all','הכל'],['sans','Sans'],['serif','Serif'],['display','Display'],['script','כתב יד'],['stam','סת"ם'],['mono','Mono'],['SEP','|'],['heb','עברית'],['latin','לטינית'],['owned','שלי 🔒']];
-const fl=document.getElementById('filters');
-cats.forEach(([v,l])=>{
-  const c=document.createElement('span');
-  if(v==='SEP'){c.className='fdiv';fl.appendChild(c);return;}
-  c.className='chip'+(v==='all'?' active':'');c.textContent=l;
-  c.onclick=()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));c.classList.add('active');activeCat=v;build();};
-  fl.appendChild(c);
-});
+const TABS=[['all','הכל'],['heb','עברית'],['latin','אנגלית'],['owned','שלי 🔒']];
+const CATS=[['all','הכל'],['sans','Sans'],['serif','Serif'],['display','Display'],['script','כתב יד'],['stam','סת"ם'],['mono','Mono']];
+const tabsEl=document.getElementById('tabs'), fl=document.getElementById('filters');
+TABS.forEach(([v,l])=>{const c=document.createElement('span');c.className='chip tab'+(v==='all'?' active':'');c.textContent=l;c.onclick=()=>{tabsEl.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));c.classList.add('active');activeScript=v;build();};tabsEl.appendChild(c);});
+CATS.forEach(([v,l])=>{const c=document.createElement('span');c.className='chip'+(v==='all'?' active':'');c.textContent=l;c.onclick=()=>{fl.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));c.classList.add('active');activeCat=v;build();};fl.appendChild(c);});
 
 function applyLive(){const t=document.getElementById('liveText').value;document.querySelectorAll('.sample').forEach(e=>e.textContent=t||e.dataset.def);}
 function applySize(){const v=document.getElementById('sizeRange').value;document.querySelectorAll('.tile.open .spec').forEach(s=>s.style.fontSize=v+'px');}
