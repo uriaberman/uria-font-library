@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uria Berman · Font Library</title>
+<script src="catalog/fonts.js"></script>
+<script src="catalog/fonts-gf.js"></script>
+<script src="catalog/fonts-en.js"></script>
+<style>
+:root{--paper:#F1EEF8;--ink:#0A0A0A;--aubergine:#4C1D95;--teal:#0EA5BB;--tang:#FF6B35;--line:#E6E0F0;--ink2:#6B6473;--card:#FFFFFF}
+*{box-sizing:border-box;margin:0;padding:0}
+@font-face{font-family:'rubik';src:url('library/rubik/Rubik-Regular.ttf');font-weight:400;font-display:swap}
+@font-face{font-family:'rubik';src:url('library/rubik/Rubik-Medium.ttf');font-weight:500;font-display:swap}
+@font-face{font-family:'rubik';src:url('library/rubik/Rubik-Bold.ttf');font-weight:700;font-display:swap}
+@font-face{font-family:'rubik';src:url('library/rubik/Rubik-Black.ttf');font-weight:900;font-display:swap}
+@font-face{font-family:'pjs';src:url('library/plus-jakarta-sans/PlusJakartaSans-VariableFont_wght.ttf');font-weight:200 800;font-display:swap}
+body{font-family:'rubik','Segoe UI',Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased}
+.en{font-family:'pjs','Segoe UI',sans-serif}
+
+/* ===== header row 1: white, logo + title + controls ===== */
+header{position:sticky;top:0;z-index:50}
+.hrow1{background:#fff;padding:13px 26px;display:flex;flex-wrap:wrap;align-items:center;gap:18px;border-bottom:1px solid var(--line);box-shadow:0 2px 10px rgba(76,29,149,.05)}
+.logo-wrap{display:flex;align-items:center;gap:14px}
+.logo-wrap img{height:40px;width:auto;display:block}
+.divider{width:1px;height:34px;background:var(--line)}
+.title-block .tt1{font-family:'pjs';font-weight:800;font-size:18px;letter-spacing:-.3px;color:var(--aubergine);line-height:1}
+.title-block .tt2{font-weight:500;font-size:13px;color:var(--ink2);margin-top:2px}
+.controls{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin-inline-start:auto}
+.controls input[type=text]{background:var(--paper);border:1px solid var(--line);padding:9px 13px;font-family:'rubik';font-size:14px;color:var(--ink)}
+.controls #search{width:180px}.controls #liveText{width:210px}
+.controls label{font-size:12px;color:var(--ink2);display:flex;align-items:center;gap:6px}
+.controls input[type=range]{accent-color:var(--tang);width:96px}
+/* ===== header row 2: aubergine, count + filters ===== */
+.hrow2{background:var(--aubergine);padding:9px 26px;display:flex;flex-wrap:wrap;align-items:center;gap:8px;border-bottom:3px solid var(--tang)}
+.count{background:var(--tang);color:#fff;padding:5px 12px;font-size:13px;font-weight:700;display:flex;gap:5px;align-items:center}
+.count .en{font-weight:800}
+.fdiv{width:1px;height:20px;background:rgba(255,255,255,.25);margin:0 4px}
+.chip{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.28);padding:5px 13px;font-size:13px;cursor:pointer;font-family:'rubik'}
+.chip:hover{background:rgba(255,255,255,.18)}
+.chip.active{background:#fff;color:var(--aubergine);font-weight:700;border-color:#fff}
+
+main{max-width:1340px;margin:0 auto;padding:24px 26px}
+#grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,274px),1fr));gap:16px;align-items:start}
+.tile{background:var(--card);border:1px solid var(--line);overflow:hidden;box-shadow:0 1px 4px rgba(76,29,149,.06);transition:box-shadow .15s,border-color .15s}
+.tile:hover{box-shadow:0 6px 18px rgba(76,29,149,.12);border-color:#d6cce8}
+.tile.brandfont{border-inline-start:4px solid var(--aubergine)}
+.thead{height:208px;padding:22px;cursor:pointer;display:flex;flex-direction:column;gap:7px;position:relative}
+.brandtag{position:absolute;top:0;inset-inline-start:0;background:var(--aubergine);color:#fff;font-size:10px;font-weight:700;padding:3px 9px}
+.ownedtag{position:absolute;top:0;inset-inline-end:0;background:var(--teal);color:#fff;font-size:10px;font-weight:700;padding:3px 9px}
+.tname{font-size:30px;font-weight:900;line-height:1.05;word-break:break-word;overflow:hidden}
+.tname-en{font-size:15px;font-weight:500;line-height:1.1}
+.tname-en.muted{color:var(--ink2);font-family:'rubik'}
+.tprev{font-size:18px;color:#3a3340;line-height:1.3;word-break:break-word;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tmeta{font-size:12px;color:var(--ink2);display:flex;flex-wrap:wrap;gap:5px 9px;align-items:center}
+.tfoot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px;padding-top:9px}
+.openbtn{background:var(--teal);color:#fff;border:none;padding:7px 18px;font-family:'rubik';font-size:13px;font-weight:700;cursor:pointer;flex-shrink:0}
+.openbtn:hover{background:#0c94a8}
+.tile.open .openbtn{display:none}
+.tmeta .dot{width:4px;height:4px;background:var(--teal);border-radius:50%}
+.tmeta .freeT{color:#0A6E80;font-weight:700}
+
+.tile.open{grid-column:1/-1;border-color:var(--aubergine);box-shadow:0 8px 24px rgba(76,29,149,.14)}
+.tile.open .thead{height:auto;background:#FBFAFE}
+.tile.open .tname{font-size:40px}
+.tile.open .tprev{display:none}
+.detail{display:none;padding:0 24px 26px;animation:fade .2s ease}
+.tile.open .detail{display:block}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.dtop{display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-top:1px solid var(--line);padding:16px 0 8px}
+.badge{font-size:12px;font-weight:700;padding:4px 10px}
+.b-cat{background:#EEE8F7;color:var(--aubergine)}.b-free{background:#DDF3F7;color:#0A6E80}.b-lic{background:#FFE6DC;color:#D6541F}
+.closeb{margin-inline-start:auto;cursor:pointer;background:var(--teal);color:#fff;border:none;padding:7px 18px;font-family:'rubik';font-size:13px;font-weight:700}
+.closeb:hover{background:#0c94a8}
+.instr{margin-top:18px;border:1px solid var(--line);background:#FBFAFE}
+.instr-head{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 14px;background:#F1EBFA;border-bottom:1px solid var(--line)}
+.instr-t{font-size:12.5px;font-weight:700;color:var(--aubergine)}
+.copyinstr{background:var(--teal);color:#fff;border:none;padding:6px 15px;font-family:'rubik';font-size:12px;font-weight:700;cursor:pointer;flex-shrink:0}
+.copyinstr:hover{background:#0c94a8}
+.instr-body{font-family:'rubik';font-size:12px;line-height:1.65;color:#3a3340;padding:13px 15px;white-space:pre-wrap;margin:0}
+.spec{font-size:50px;line-height:1.25;padding:14px 0;word-break:break-word}
+.latin{font-size:15px;color:var(--ink2);direction:ltr;text-align:left;margin-bottom:4px}
+.ladder{border-top:1px dashed var(--line);padding-top:12px;margin-top:8px}
+.lrow{display:flex;align-items:baseline;gap:16px;padding:6px 0;border-bottom:1px solid #F2EEF8}
+.lrow .wl{flex:0 0 130px;font-size:12px;color:var(--ink2)}
+.lrow .ws{font-size:26px;line-height:1.2;word-break:break-word}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:13px 22px;margin-top:16px;background:#FBFAFE;border:1px solid var(--line);padding:16px 18px}
+.mcell .k{font-size:11px;letter-spacing:.4px;color:var(--ink2);font-weight:700}
+.mcell .v{font-size:14px;margin-top:2px}
+.pathbtn{cursor:pointer;background:none;border:1px dashed var(--teal);color:#0A6E80;padding:4px 10px;font-family:'pjs';font-size:12px;direction:ltr}
+.pathbtn:hover{background:var(--teal);color:#fff}
+footer{max-width:1340px;margin:6px auto 36px;color:var(--ink2);font-size:13px;text-align:center;line-height:1.8}
+footer code{font-family:'pjs';background:#E7E0F2;padding:1px 6px}
+@media(max-width:640px){.controls{width:100%}.controls #search,.controls #liveText{flex:1}.tile.open .tname{font-size:30px}.spec{font-size:32px}.lrow .ws{font-size:20px}.lrow .wl{flex-basis:84px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="hrow1">
+    <div class="logo-wrap">
+      <img src="assets/logo-wordmark.png" alt="Uria Berman">
+      <span class="divider"></span>
+      <div class="title-block"><div class="tt1">Font Library</div><div class="tt2">ספריית הפונטים</div></div>
+    </div>
+    <div class="controls">
+      <input type="text" id="search" placeholder="חיפוש פונט…">
+      <input type="text" id="liveText" placeholder="טקסט לתצוגה חיה…">
+      <label>גודל <input type="range" id="sizeRange" min="28" max="96" value="50"></label>
+    </div>
+  </div>
+  <div class="hrow2">
+    <span class="count" id="count"></span>
+    <span class="fdiv"></span>
+    <div id="filters" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+  </div>
+</header>
+<main><div id="grid"></div></main>
+<footer>
+  <span class="en" id="fcount"></span> פונטים · רשת קוביות + אקורדיון · לחיצה על קובייה פותחת מפרט מלא.<br>
+  כל קובץ ב-<code>library/&lt;slug&gt;/</code> · קטלוג ב-<code>catalog/fonts.js</code>.
+</footer>
+
+<script>
+const FONTS=window.FONTS||[];
+/* master instruction for Claude Code, per font */
+function buildInstr(ft){
+  const base='C:\\Users\\Uria\\.claude\\skills\\fonts\\'+ft.path.replace(/\//g,'\\');
+  const weights=ft.weights.map(w=>w.n+' ('+w.f+')').join(', ');
+  const lic=ft.redistributable===false ? ft.license+' · אסור להפצה (שימוש מקומי בלבד)' : ft.license;
+  return 'משימה: שלב את הפונט "'+ft.he+' / '+ft.en+'" מספריית הפונטים שלי (skill: fonts).\n\n'+
+  'מיקום הקבצים (נאמנות מלאה למקור - השתמש בקובץ המדויק, אל תחליף בפונט דומה):\n'+base+'\n'+
+  'משקלים זמינים: '+weights+'\n'+
+  'רישיון: '+lic+'\n\n'+
+  'בצע לפי סוג המשימה:\n'+
+  '• כתוביות וידאו (ffmpeg): השתמש ב-fontfile עם הנתיב המלא של המשקל הרצוי, או התקן את הפונט והשתמש ב-force_style=\'FontName='+ft.en+'\'. שמור RTL לעברית.\n'+
+  '• עיצוב / תמונה (image-generation / gpt2-image / design): העבר את נתיב קובץ הפונט למחולל.\n'+
+  '• מסמך וורד / הדפסה: התקן את הקובץ ל-C:\\Windows\\Fonts ובחר את "'+ft.en+'".\n'+
+  '• web / HTML (motion / satori): @font-face { font-family:\''+ft.en+'\'; src:url(\'<path>\') }.\n\n'+
+  'חובה: נאמנות מלאה למקור - הפונט המדויק הזה.';
+}
+/* @font-face injection */
+const st=document.createElement('style');let css='';
+FONTS.forEach(ft=>{
+  if(ft.variable){css+=`@font-face{font-family:'f-${ft.slug}';src:url('${ft.path}${ft.weights[0].f}');font-weight:200 800;font-display:swap}\n`;}
+  else{ft.weights.forEach(wt=>{css+=`@font-face{font-family:'f-${ft.slug}';src:url('${ft.path}${wt.f}');font-weight:${wt.w};font-display:swap}\n`;});}
+});
+st.textContent=css;document.head.appendChild(st);
+
+const grid=document.getElementById('grid');
+const heroW=ft=>ft.weights.some(x=>x.w===400)?400:ft.weights[Math.floor(ft.weights.length/2)].w;
+let activeCat='all', q='';
+
+function build(){
+  grid.innerHTML='';
+  const list=FONTS.filter(f=>{
+    if(q && !(f.he+f.en).toLowerCase().includes(q)) return false;
+    const a=activeCat;
+    if(a==='all') return true;
+    if(a==='heb') return f.heb;
+    if(a==='latin') return !f.heb;
+    if(a==='owned') return f.owned;
+    return f.cat===a;
+  });
+  // classics first, decorative Rubik FX last
+  const rfx=s=>/^rubik-/.test(s)&&s!=='rubik';
+  list.sort((a,b)=>{const r=f=>f.brand?0:(rfx(f.slug)?3:(f.heb?1:2));return r(a)-r(b);});
+  document.getElementById('count').innerHTML='<span class="en">'+list.length+'</span> פונטים';
+  document.getElementById('fcount').textContent=FONTS.length;
+  list.forEach(ft=>{
+    const fam=`f-${ft.slug}`;
+    const titleHe = ft.heb ? `<div class="tname" style="font-family:'${fam}'">${ft.he}</div>` : `<div class="tname en" style="font-family:'${fam}'">${ft.en}</div>`;
+    const titleSub = ft.heb ? `<div class="tname-en" style="font-family:'${fam}'">${ft.en}</div>` : `<div class="tname-en muted">${ft.he}</div>`;
+    const prev = `<div class="tprev sample" data-def="${ft.sample}" style="font-family:'${fam}';font-weight:${heroW(ft)}">${ft.sample}</div>`;
+    const ladder=ft.weights.map(wt=>`<div class="lrow"><span class="wl en">${wt.n} · ${wt.w}</span><span class="ws sample" data-def="${ft.sample}" style="font-family:'${fam}';font-weight:${wt.w}">${ft.sample}</span></div>`).join('');
+    const t=document.createElement('section');
+    t.className='tile'+(ft.brand?' brandfont':'');
+    t.dataset.slug=ft.slug;
+    t.innerHTML=`
+      <div class="thead">
+        ${ft.brand?'<span class="brandtag">פונט מותג</span>':''}
+        ${ft.owned?'<span class="ownedtag">שלך 🔒</span>':''}
+        ${titleHe}${titleSub}${prev}
+        <div class="tfoot">
+          <div class="tmeta"><span>${ft.catHe}</span><span class="dot"></span><span class="en">${ft.weights.length}</span> משקלים<span class="dot"></span><span class="freeT">${ft.license}</span></div>
+          <button class="openbtn">פתיחה</button>
+        </div>
+      </div>
+      <div class="detail">
+        <div class="dtop">
+          <span class="badge b-cat">${ft.catHe}</span>
+          ${ft.free?'<span class="badge b-free">✓ חופשי לשימוש</span>':''}
+          <span class="badge b-lic en">${ft.license}</span>
+          <button class="closeb">סגור ✕</button>
+        </div>
+        <div class="spec sample" data-def="${ft.sample}" style="font-family:'${fam}';font-weight:${heroW(ft)}">${ft.sample}</div>
+        <div class="latin en" style="font-family:'${fam}'">ABCDEFG abcdefg 0123456789 &amp; ! ?</div>
+        <div class="ladder">${ladder}</div>
+        <div class="meta">
+          <div class="mcell"><div class="k">מעצב</div><div class="v">${ft.designer}</div></div>
+          <div class="mcell"><div class="k">משקלים</div><div class="v"><span class="en">${ft.weights.map(w=>w.n).join(', ')}</span></div></div>
+          <div class="mcell"><div class="k">סקריפטים</div><div class="v">${ft.scripts}</div></div>
+          <div class="mcell"><div class="k">מתאים ל</div><div class="v">${ft.use}</div></div>
+          <div class="mcell"><div class="k">אופי</div><div class="v">${ft.mood}</div></div>
+          <div class="mcell"><div class="k">זיווג</div><div class="v">${ft.pairs}</div></div>
+          <div class="mcell"><div class="k">מקור</div><div class="v">${ft.source}</div></div>
+          <div class="mcell"><div class="k">נתיב</div><div class="v"><button class="pathbtn" data-p="${ft.path}">${ft.path} ⧉</button></div></div>
+        </div>
+        <div class="instr">
+          <div class="instr-head"><span class="instr-t">📋 הוראה ל-Claude Code · העתק והדבק במשימה חדשה</span><button class="copyinstr" data-slug="${ft.slug}">העתק הוראה</button></div>
+          <pre class="instr-body"></pre>
+        </div>
+      </div>`;
+    grid.appendChild(t);
+  });
+  wire();applyLive();applySize();
+}
+function wire(){
+  document.querySelectorAll('.tile').forEach(tile=>{
+    tile.querySelector('.thead').onclick=()=>{
+      const open=tile.classList.contains('open');
+      document.querySelectorAll('.tile.open').forEach(o=>o.classList.remove('open'));
+      if(!open){tile.classList.add('open');applyLive();applySize();tile.scrollIntoView({behavior:'smooth',block:'nearest'});}
+    };
+    const cb=tile.querySelector('.closeb'); if(cb) cb.onclick=e=>{e.stopPropagation();tile.classList.remove('open');};
+    const pb=tile.querySelector('.pathbtn'); if(pb) pb.onclick=e=>{e.stopPropagation();try{navigator.clipboard&&navigator.clipboard.writeText(pb.dataset.p);}catch(x){}pb.textContent='הועתק ✓';setTimeout(()=>pb.textContent=pb.dataset.p+' ⧉',1200);};
+    const ft=FONTS.find(f=>f.slug===tile.dataset.slug);
+    const pre=tile.querySelector('.instr-body'); if(pre&&ft) pre.textContent=buildInstr(ft);
+    const ci=tile.querySelector('.copyinstr'); if(ci&&ft) ci.onclick=e=>{e.stopPropagation();try{navigator.clipboard&&navigator.clipboard.writeText(buildInstr(ft));}catch(x){}ci.textContent='הועתק ✓';setTimeout(()=>ci.textContent='העתק הוראה',1400);};
+  });
+}
+const cats=[['all','הכל'],['sans','Sans'],['serif','Serif'],['display','Display'],['script','כתב יד'],['stam','סת"ם'],['mono','Mono'],['SEP','|'],['heb','עברית'],['latin','לטינית'],['owned','שלי 🔒']];
+const fl=document.getElementById('filters');
+cats.forEach(([v,l])=>{
+  const c=document.createElement('span');
+  if(v==='SEP'){c.className='fdiv';fl.appendChild(c);return;}
+  c.className='chip'+(v==='all'?' active':'');c.textContent=l;
+  c.onclick=()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));c.classList.add('active');activeCat=v;build();};
+  fl.appendChild(c);
+});
+
+function applyLive(){const t=document.getElementById('liveText').value;document.querySelectorAll('.sample').forEach(e=>e.textContent=t||e.dataset.def);}
+function applySize(){const v=document.getElementById('sizeRange').value;document.querySelectorAll('.tile.open .spec').forEach(s=>s.style.fontSize=v+'px');}
+document.getElementById('liveText').addEventListener('input',applyLive);
+document.getElementById('sizeRange').addEventListener('input',applySize);
+document.getElementById('search').addEventListener('input',e=>{q=e.target.value.toLowerCase();build();});
+build();
+</script>
+</body>
+</html>
