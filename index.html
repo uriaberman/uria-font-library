@@ -191,7 +191,7 @@ function build(){
     t.innerHTML=`
       <div class="thead">
         ${ft.brand?'<span class="brandtag">פונט מותג</span>':''}
-        ${ft.owned?'<span class="ownedtag">שלך 🔒</span>':''}
+        ${ft.redistributable===false?'<span class="ownedtag">ברישיון 🔒</span>':''}
         ${titleHe}${titleSub}${prev}
         <div class="tfoot">
           <div class="tmeta"><span>${ft.catHe}</span><span class="dot"></span><span class="en">${ft.weights.length}</span> משקלים<span class="dot"></span><span class="freeT">${ft.license}</span></div>
